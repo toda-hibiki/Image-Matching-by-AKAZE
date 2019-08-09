@@ -1,7 +1,7 @@
 import cv2  #OpenCVのインポート
 
-img1 = cv2.imread('./2019/0520/index1.jpg') #img1の読み出し
-img2 = cv2.imread('./2019/0520/index2.jpg') #img2の読み出し
+img1 = cv2.imread('image1.jpg') #img1の読み出し
+img2 = cv2.imread('image2.jpg') #img2の読み出し
 
 gray1 = cv2.cvtColor(img1, cv2.COLOR_BGR2GRAY) #img1をグレースケールで読み出し
 gray2 = cv2.cvtColor(img2, cv2.COLOR_BGR2GRAY) #img2をグレースケールで読み出し
